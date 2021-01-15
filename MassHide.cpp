@@ -69,5 +69,5 @@ int main(int argc, char *argv[])
 	srand(time(0));
 	float spotRatio = manyTrials();
 	std::cout << "Spot success: " << spotRatio * 100 << "%\n";
-    return EXIT_SUCCESS;
+	return EXIT_SUCCESS;
 }
